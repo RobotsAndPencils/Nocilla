@@ -32,7 +32,7 @@ typedef void (^AndFailWithErrorMethod)(NSError * _Nonnull error);
 extern "C" {
 #endif
 
-LSStubRequestDSL * _Nonnull stubRequest(NSString * _Nonnull method, _Nonnull id<LSMatcheable> url);
+LSStubRequestDSL * _Nonnull stubRequest(NSString * _Nullable method, _Nonnull id<LSMatcheable> url);
 
 #ifdef __cplusplus
 }
